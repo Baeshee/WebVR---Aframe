@@ -1,0 +1,127 @@
+[debug] [2021-05-11T18:18:24.702Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:18:24.704Z] Command:       D:\Extra Programs\NodeJS\node.exe C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-11T18:18:24.704Z] CLI Version:   8.18.0
+[debug] [2021-05-11T18:18:24.704Z] Platform:      win32
+[debug] [2021-05-11T18:18:24.704Z] Node Version:  v14.16.0
+[debug] [2021-05-11T18:18:24.705Z] Time:          Tue May 11 2021 20:18:24 GMT+0200 (Midden-Europese zomertijd)
+[debug] [2021-05-11T18:18:24.705Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:18:24.705Z] 
+[debug] [2021-05-11T18:18:24.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-11T18:18:24.712Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming\Web-Development\WebVR- Aframe\Release
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2021-05-11T18:18:33.914Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:18:33.916Z] Command:       D:\Extra Programs\NodeJS\node.exe C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-11T18:18:33.916Z] CLI Version:   8.18.0
+[debug] [2021-05-11T18:18:33.916Z] Platform:      win32
+[debug] [2021-05-11T18:18:33.916Z] Node Version:  v14.16.0
+[debug] [2021-05-11T18:18:33.917Z] Time:          Tue May 11 2021 20:18:33 GMT+0200 (Midden-Europese zomertijd)
+[debug] [2021-05-11T18:18:33.917Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:18:33.917Z] 
+[debug] [2021-05-11T18:18:33.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-11T18:18:33.924Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming\Web-Development\WebVR- Aframe\Release
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using ipmedt3-vr-db. 
+[debug] [2021-05-11T18:18:39.321Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-11T18:18:39.322Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-11T18:18:39.482Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 11 May 2021 18:18:38 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-11T18:18:39.486Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ipmedt3-vr-db  
+ 
+[debug] [2021-05-11T18:18:39.761Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Tue, 11 May 2021 18:18:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-11T18:18:39.761Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-05-11T18:18:39.762Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-05-11T18:18:39.824Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at Request.<anonymous> (C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.<anonymous> (C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to get Firebase project ipmedt3-vr-db. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-05-11T18:19:17.287Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:19:17.289Z] Command:       D:\Extra Programs\NodeJS\node.exe C:\Users\basba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-11T18:19:17.289Z] CLI Version:   8.18.0
+[debug] [2021-05-11T18:19:17.289Z] Platform:      win32
+[debug] [2021-05-11T18:19:17.289Z] Node Version:  v14.16.0
+[debug] [2021-05-11T18:19:17.290Z] Time:          Tue May 11 2021 20:19:17 GMT+0200 (Midden-Europese zomertijd)
+[debug] [2021-05-11T18:19:17.290Z] ----------------------------------------------------------------------
+[debug] [2021-05-11T18:19:17.291Z] 
+[debug] [2021-05-11T18:19:17.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-11T18:19:17.297Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming\Web-Development\WebVR- Aframe\Release
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using webvr-aframe. 
+[debug] [2021-05-11T18:19:25.959Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/webvr-aframe  
+ 
+[debug] [2021-05-11T18:19:26.171Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 11 May 2021 18:19:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
