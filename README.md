@@ -10,7 +10,7 @@ Due to limitations only the general concept could be covered and not the real st
 
 ### The VR Environment
 
-You can try the virtual environment at: https://webvr-aframe.web.app/ - automatic!
+You can try the virtual environment at: https://aframe-webvr.web.app/ - automatic!
 
 Use:
 * Navigate by using (clicking) the black tiles on the floor
